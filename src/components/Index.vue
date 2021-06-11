@@ -1,6 +1,10 @@
 <template>
   <div class="body">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400&display=swap" rel="stylesheet">
 
     <nav class="nav-bar">
 
@@ -40,8 +44,12 @@
      </picture>
 
      <div>
-       <h1>Hi!</h1>
-       <h2>My name is <strong>KOLAWOLE HENRY OLUWATOBI.</strong></h2>
+       <h2> Hi! My name is <strong>KOLAWOLE HENRY OLUWATOBI.</strong></h2>
+       <p>I am passionate about expressing my thoughts and ideas,<br>
+       and I have found a way of doing so through design and codes.</p>
+       <p> I create functional but asethetic websites that not only satisfy<br>
+       your needs, but also appeals to the soul.</p>
+       <p>Stick with me as I take you through my intrest and completed projects.</p>
      </div>
    </div>
 
@@ -54,42 +62,43 @@
 
    <div class="intrest-container">
      
-     <div class="basket-ball">
-       <img src="../images/ball-and-ring.jpg" alt="ball-and-ring">
+     <div class="basketball">
+       <img src="../images/ball-and-ring.jpg" alt="ball-and-ring" class="intrest-img">
      </div>
 
      <div class="basketball-content">
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-         Incidunt quas suscipit deleniti error ea magni ducimus accusamus quo sint odit nisi placeat quidem dolores blanditiis rem, 
+         Incidunt quas suscipit deleniti error ea magni ducimus<br> accusamus quo sint odit nisi placeat quidem dolores blanditiis rem, 
          quisquam distinctio cum illum.
        </p>
        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Dignissimos, iusto maiores dolorem adipisci ipsam quasi alias doloribus,
+          Dignissimos, iusto maiores dolorem adipisci <br>ipsam quasi alias doloribus,
            quos sed neque consequuntur, nihil magnam? Sed saepe incidunt ipsa illum optio asperiores.
        </p>
        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Dignissimos, iusto maiores dolorem adipisci ipsam quasi alias doloribus,
+          Dignissimos, iusto maiores dolorem adipisci <br>ipsam quasi alias doloribus,
            quos sed neque consequuntur, nihil magnam? Sed saepe incidunt ipsa illum optio asperiores.
        </p>
        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Dignissimos, iusto maiores dolorem adipisci ipsam quasi alias doloribus,
+          Dignissimos, iusto maiores dolorem adipisci <br>ipsam quasi alias doloribus,
            quos sed neque consequuntur, nihil magnam? Sed saepe incidunt ipsa illum optio asperiores.
        </p>
      </div>
 
      <div class="music-content">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Incidunt quas suscipit deleniti error ea magni ducimus accusamus quo sint odit nisi placeat quidem dolores blanditiis rem, 
+        Incidunt quas suscipit deleniti error ea magni ducimus<br> 
+        accusamus quo sint odit nisi placeat quidem dolores blanditiis rem, 
         quisquam distinctio cum illum.
         </p>
 
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Dignissimos, iusto maiores dolorem adipisci ipsam quasi alias doloribus,
+        Dignissimos, iusto maiores dolorem adipisci <br>ipsam quasi alias doloribus,
         quos sed neque consequuntur, nihil magnam? Sed saepe incidunt ipsa illum optio asperiores.
         </p>
 
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Dignissimos, iusto maiores dolorem adipisci ipsam quasi alias doloribus,
+        Dignissimos, iusto maiores dolorem adipisci <br><br>ipsam quasi alias doloribus,
         quos sed neque consequuntur, nihil magnam? Sed saepe incidunt ipsa illum optio asperiores.
         </p>
 
@@ -100,34 +109,37 @@
       </div>
 
       <div>
-        <img src="../images/black-headphone.jpg" alt=" Black headphone on cheese barrel ">
+        <img src="../images/black-headphone.jpg" alt=" Black headphone on cheese barrel" class="intrest-img">
       </div>
 
     
      <div>
-        <img src="../images/book.jpg" alt="book-library" class="book-img">
+        <img src="../images/book.jpg" alt="book-library" class="intrest-img">
       </div>
 
        
       <div class="book-content">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Incidunt quas suscipit deleniti error ea magni ducimus accusamus quo sint odit nisi placeat quidem dolores blanditiis rem, 
+        Incidunt quas suscipit deleniti error ea magni ducimus <br>
+        accusamus quo sint odit nisi placeat quidem dolores blanditiis rem, 
         quisquam distinctio cum illum.
         </p>
 
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Dignissimos, iusto maiores dolorem adipisci ipsam quasi alias doloribus,
-        quos sed neque consequuntur, nihil magnam? Sed saepe incidunt ipsa illum optio asperiores.
+        Dignissimos, iusto maiores dolorem adipisci <br>ipsam quasi alias doloribus,
+        quos sed neque consequuntur, <br>nihil magnam? Sed saepe incidunt ipsa illum optio asperiores.
         </p>
 
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Dignissimos, iusto maiores dolorem adipisci ipsam quasi alias doloribus,
-        quos sed neque consequuntur, nihil magnam? Sed saepe incidunt ipsa illum optio asperiores.
+        Dignissimos, iusto maiores dolorem adipisci <br>
+        ipsam quasi alias doloribus,
+        quos sed neque consequuntur, <br>nihil magnam? Sed saepe incidunt ipsa illum optio asperiores.
         </p>
 
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Dignissimos, iusto maiores dolorem adipisci ipsam quasi alias doloribus,
-        quos sed neque consequuntur, nihil magnam? Sed saepe incidunt ipsa illum optio asperiores.
+        Dignissimos, iusto maiores dolorem adipisci ipsam <br>
+        quasi alias doloribus,
+        quos sed neque consequuntur,<br> nihil magnam? Sed saepe incidunt ipsa illum optio asperiores.
         </p>
       </div>
       
@@ -142,29 +154,30 @@
         <a href="http://www.Haullersonline.com">
           <img src="../images/red-truck.jpg" alt = "red-truck" class="project-img">
         </a>
-        <p>Haullersonline is an online haulage platform that provides <br>haulage services to businesses and individuals.</p>
+        <p>Haullersonline is an online haulage platform that <br> provides haulage services to businesses and individuals.</p>
       </div>
 
       <div class="projects">
         <a href="http://www.Alonacanada.com">
           <img src="../images/spices.jpg" alt="spices" class="project-img">
         </a>
-        <p>Alonacanada makes from roots of the ginseg plant to maintain <br> good health in the most natural way.</p>
+        <p>Alonacanada makes from roots of the ginseg plant to <br> maintain good health in the most natural way.</p>
       </div>
 
       <div class="projects">
         <a href="http://www.Diamondbeautyng.com">
           <img src="../images/beauty.jpg" alt ="beauty" class="project-img">
         </a>
-        <p>Diamondbeautyng is your one stop shop for your beuty needs.</p>
+        <p>Diamondbeautyng is your one stop shop for your beuty <br> needs.</p>
       </div>
     
     </div>
 
-    <div class="contact footer" id="Contact-Me">
+    <h2 class="section-header" id="Contact-Me">CONTACT ME</h2>
+    <div class="contact footer">
       <div class="email">
         <h3>henrykay53@gmail.com</h3>
-        <a href="mailto:henrykay53@gmail.com"><button class="email-btn">Email Henry</button></a>
+        <a href="mailto:henrykay53@gmail.com"><div class="email-btn">Email Henry</div></a>
       </div>
     </div>
 
@@ -190,44 +203,88 @@ html {
 }
 
 
-
 .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #008ccf;
+  width: 100%;
 }
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 9vh;
+}
+
+/* Hamburger menu */
+span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+ 
+}
+
+/* Give a margin of 4px to the element that is not last */
+span:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+span:first-child {
+  transform: rotate(45deg);
+  /* Align the first child along it's Y and X axis */
+  /* 8px for upward and downward movement 4px for left and right movement */
+  transform-origin: 8px 4px;
+}
+
+span:last-child {
+  /* When an element is rotated at a negative(-) degree
+  it is inclined to the left and vice versa */
+  transform: rotate(-45deg);
+}
+
 
 .desktop-links{
   text-decoration: none;
-  font-size: 1.5rem;
-  color: grey;
-  /* margin-left: 20px; */
+  font-size: 1.3rem;
+  color: black;
   padding-left: 50px;
 }
 
+/* Simple animation style for when nav links are hovered */
 .desktop-links::before {
   content: "";
   position: absolute;
   height: 5px;
   width: 5%;
   top: 70px;
-  background: blue;
+  background: rgb(9, 9, 175);
   transition: 400ms ease-in-out;
   opacity: 0;
 }
 
+/* Opacity makes the animatiion visible when the links are hovered on */
 .desktop-links:hover::before {
   opacity: 1;
 }
 
-
+/* Hero image and text */
+.intro {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
 
 .intro {
-  display: grid;
-  grid-template-columns: auto auto;
+  margin: 150px 0;
 }
 
 .profile-pic {
+  width: 100%;
+  height: 100%;
+  margin-right: -20px;
   border: 4px solid blue;
   border-radius: 10px;
   padding: 4px 4px;
@@ -242,49 +299,82 @@ html {
   display: none;
 }
 
-/* intrest gird-display */
+
 .intrest-container {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: auto auto;
+  grid-row-gap: 90px;
+  grid-column-gap: 120px;
 }
 
+.intrest-container {
+  margin: 0 115px;
+}
+
+.intrest-img {
+  box-shadow: 8px 0px 8px rgb(166, 166, 166);
+}
+
+
+/* All h2 element have their text centered */
 .section-header{
   text-align: center;
 }
 
+/* Project section  */
 .projects-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 90px 40px;
 }
 
 .project-img {
   border: 4px solid white;
   border-radius: 6px;
+  /* box-shadow: 2px 2px 2px rgba(124, 154, 112); */
 }
+
 :hover.project-img {
   border: 4px solid #008ccf;
 }
 
 .footer {
   height: 10vh;
-  background-color: #008ccf;
+  /* background-color: #008ccf; */
   padding-top: 20px;
 }
+
 .email {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-}
-h1 {
-  margin: 40px 0 0;
-  font-size: var(--fs-small);
+  justify-content: center;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.email-btn {
+  border-radius: 8px;
+  padding: 10px 10px;
+  background-color: #008ccf;
+  color: black;
+  margin-left: 40px;
 }
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: grey;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+/* Testing multiple font families */
+p {
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Laila', sans-serif;
+}
+
 
 li {
   display: inline-block;
