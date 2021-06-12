@@ -12,12 +12,12 @@
       <img src="../images/setup.svg" width="150" height="100">
      
 
-     <div class="mobile-nav">
+     <div class="hamburger-menu">
        <span></span>
        <span></span>
      </div>
 
-     <div class="mobile-nav-content">
+     <div class="hamburger-content">
        <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Intrest</a></li>
@@ -39,18 +39,20 @@
 
 
    <div class="intro">
-     <picture>
-       <img src="../images/profile-pic.jpg" alt="profile-pic" class="profile-pic">
-     </picture>
-
+    
      <div>
-       <h2> Hi! My name is <strong>KOLAWOLE HENRY OLUWATOBI.</strong></h2>
+       <h1 class="greeter">Hi!</h1> <h2>I KOLAWOLE HENRY OLUWATOBI.</h2>
        <p>I am passionate about expressing my thoughts and ideas,<br>
        and I have found a way of doing so through design and codes.</p>
        <p> I create functional but asethetic websites that not only satisfy<br>
        your needs, but also appeals to the soul.</p>
        <p>Stick with me as I take you through my intrest and completed projects.</p>
      </div>
+
+     <picture>
+       <img src="../images/profile-pic.jpg" alt="profile-pic" class="profile-pic">
+     </picture>
+
    </div>
 
 
@@ -61,7 +63,6 @@
    <h2 id="Intrest" class="section-header">MY INTREST</h2>
 
    <div class="intrest-container">
-     
      <div class="basketball">
        <img src="../images/ball-and-ring.jpg" alt="ball-and-ring" class="intrest-img">
      </div>
@@ -146,7 +147,7 @@
     
     </div>
 
-     <h2 class="section-header" id="Projects">PROJECTS</h2>
+    <h2 class="section-header" id="Projects">PROJECTS</h2>
 
     <div class="projects-container">
      
@@ -202,12 +203,60 @@ html {
   scroll-behavior: smooth;
 }
 
+/* All media queries */
+@media(max-width: 786px) {
+  .desktop-nav {
+    display: none !important;
+  }
+}
+
+@media(max-width: 786px) {
+  .hamburger-menu {
+    margin-left: 250px;
+  }
+}
+@media(min-width: 787px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media(max-width: 787px) {
+  .intro {
+    display: block !important;
+    padding: 30px 30px;
+  }
+
+
+}
+
+
+@media(max-width: 600px) {
+  .intrest-container {
+    display: block !important;
+  }
+}
+
+@media(max-width: 600px) {
+  .basketball-content, .book-content, .music-content {
+    background-color: gold;
+    display: block;
+  }
+}
+
+@media(max-width: 800px) {
+  .projects-container {
+    display: block !important;
+  }
+}
+
+
 
 .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #008ccf;
+  /* background-color: #008ccf; */
   width: 100%;
 }
 
@@ -216,6 +265,7 @@ html {
   top: 0;
   left: 0;
   height: 9vh;
+  margin-top: 50px;
 }
 
 /* Hamburger menu */
@@ -259,7 +309,7 @@ span:last-child {
   position: absolute;
   height: 5px;
   width: 5%;
-  top: 70px;
+  top: 65px;
   background: rgb(9, 9, 175);
   transition: 400ms ease-in-out;
   opacity: 0;
@@ -273,12 +323,16 @@ span:last-child {
 /* Hero image and text */
 .intro {
   display: flex;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
   justify-content: space-evenly;
 }
 
 .intro {
   margin: 150px 0;
+}
+
+.greeter::first-letter {
+  font-size: 60px;
 }
 
 .profile-pic {
@@ -295,7 +349,7 @@ span:last-child {
 
 }
 
-.mobile-nav-content {
+.hamburger-content {
   display: none;
 }
 
@@ -312,6 +366,7 @@ span:last-child {
 }
 
 .intrest-img {
+  width: 100%;
   box-shadow: 8px 0px 8px rgb(166, 166, 166);
 }
 
@@ -329,6 +384,7 @@ span:last-child {
 }
 
 .project-img {
+  width: 100%;
   border: 4px solid white;
   border-radius: 6px;
   /* box-shadow: 2px 2px 2px rgba(124, 154, 112); */
@@ -348,6 +404,8 @@ span:last-child {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: rgb(77, 77, 77);
+  font-size: 1.2rem;
 }
 
 .email-btn {
@@ -363,8 +421,8 @@ a {
 }
 
 p {
-  color: grey;
-  font-size: 1rem;
+  color: rgb(77, 77, 77);
+  font-size: 1.2rem;
   line-height: 2;
 }
 
